@@ -1,0 +1,169 @@
+body{
+    color: white;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: navy;
+    display: flex;
+}
+
+.subtitle{
+    font-size: 120%;
+    background-color: rgb(19, 199, 199);
+    display: flex;
+    color: white;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 2%;
+}
+
+.subtitle1{
+    height: 100%;
+    font-size: 150%;
+    background-color: rgb(19, 199, 199);
+    display: flex;
+    color: white;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 1%;
+    width: 80%;
+}
+
+@mixin aside-sub{
+    margin: 0 15% 0 20%;
+    font-size: 120%;
+}
+
+@mixin inner-context{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+aside{
+    padding: 2% 0 2% 0;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+.image{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    >img{
+        margin: 5%;
+        width: 60%;
+        height: auto;
+        border-radius: 50%;
+    }
+}
+}
+
+    .image>h1{
+        font-size: 200%;
+    }
+
+    .image>hr{
+        width: 100%;
+    }
+
+
+article{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#profile{
+    width: 80%;
+    .aside-sub{
+        @include aside-sub;
+    }
+    >p{
+        padding: 7%;
+        width: 100%;
+    }
+}
+
+#contact{
+    width: 80%;
+    .aside-sub{
+        @include aside-sub;
+    }
+    .inner-context{
+        @include inner-context;
+        >.icon-pos{
+            margin: 5% 10%;
+        }
+        &p{
+            padding-right: 2%;
+        }
+    }
+}
+
+#hobby{
+    width: 80%;
+    .aside-sub{
+        @include aside-sub;
+    }
+    .inner-context{
+        @include inner-context;
+        >.icon-pos{
+            margin: 5% 10%;
+        }
+    }
+}
+
+article{
+    background-color: lightgrey;
+    margin: 1% 0;
+    padding: 1% 0;
+>#employment, #education, #skill{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.icon-pos{
+    margin-right: 5%;
+}
+}
+
+.context{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1% 1%;
+    color: black;
+    >.aside, .details{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.details{
+    width: 70%;
+}
+
+.chart {
+    position: relative;
+    display: inline-block;
+    color: #999;
+    font-size: 10px;
+    text-align: center;
+    margin-right: 8%;
+  }
+  .chart canvas {
+    position: absolute;
+    top: 100%;
+    left: 0;
+  }
+
+  #skill{
+      .context{
+          display: flex;
+          justify-content: flex-start;
+      }
+  }

@@ -1,2 +1,183 @@
+body {
+  color: white; }
+
+.container {
+  width: 100%;
+  height: 100vh;
+  background-color: navy;
+  display: -webkit-box;
+  display: flex; }
+
+.subtitle {
+  font-size: 120%;
+  background-color: #13c7c7;
+  display: -webkit-box;
+  display: flex;
+  color: white;
+  -webkit-box-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+          align-items: center;
+  padding: 2%; }
+
+.subtitle1 {
+  height: 100%;
+  font-size: 150%;
+  background-color: #13c7c7;
+  display: -webkit-box;
+  display: flex;
+  color: white;
+  -webkit-box-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+          align-items: center;
+  padding: 1%;
+  width: 80%; }
+
+aside {
+  padding: 2% 0 2% 0;
+  width: 20%;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column; }
+
+aside .image {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+  -webkit-box-align: center;
+          align-items: center; }
+
+aside .image > img {
+  margin: 5%;
+  width: 60%;
+  height: auto;
+  border-radius: 50%; }
+
+.image > h1 {
+  font-size: 200%; }
+
+.image > hr {
+  width: 100%; }
+
+article {
+  width: 100%;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column; }
+
+#profile {
+  width: 80%; }
+
+#profile .aside-sub {
+  margin: 0 15% 0 20%;
+  font-size: 120%; }
+
+#profile > p {
+  padding: 7%;
+  width: 100%; }
+
+#contact {
+  width: 80%; }
+
+#contact .aside-sub {
+  margin: 0 15% 0 20%;
+  font-size: 120%; }
+
+#contact .inner-context {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+          justify-content: flex-start;
+  width: 100%; }
+
+#contact .inner-context > .icon-pos {
+  margin: 5% 10%; }
+
+#contact .inner-contextp {
+  padding-right: 2%; }
+
+#hobby {
+  width: 80%; }
+
+#hobby .aside-sub {
+  margin: 0 15% 0 20%;
+  font-size: 120%; }
+
+#hobby .inner-context {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+          justify-content: flex-start;
+  width: 100%; }
+
+#hobby .inner-context > .icon-pos {
+  margin: 5% 10%; }
+
+article {
+  background-color: lightgrey;
+  margin: 1% 0;
+  padding: 1% 0; }
+
+article > #employment, article #education, article #skill {
+  width: 100%;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+  -webkit-box-align: end;
+          align-items: flex-end; }
+
+article .icon-pos {
+  margin-right: 5%; }
+
+.context {
+  width: 80%;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: justify;
+          justify-content: space-between;
+  padding: 1% 1%;
+  color: black; }
+
+.context > .aside, .context .details {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column; }
+
+.details {
+  width: 70%; }
+
+.chart {
+  position: relative;
+  display: inline-block;
+  color: #999;
+  font-size: 10px;
+  text-align: center;
+  margin-right: 8%; }
+
+.chart canvas {
+  position: absolute;
+  top: 100%;
+  left: 0; }
+
+#skill .context {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: start;
+          justify-content: flex-start; }
 
 /*# sourceMappingURL=style.css.map */
