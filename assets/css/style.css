@@ -81,7 +81,8 @@ article {
 
 #profile > p {
   padding: 7%;
-  width: 100%; }
+  width: 110%;
+  font-size: 14px; }
 
 #contact {
   width: 80%; }
@@ -102,8 +103,8 @@ article {
 #contact .inner-context > .icon-pos {
   margin: 5% 10%; }
 
-#contact .inner-contextp {
-  padding-right: 2%; }
+.inner-context > p {
+  font-size: 14px; }
 
 #hobby {
   width: 80%; }

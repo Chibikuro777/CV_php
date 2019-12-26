@@ -83,7 +83,8 @@ article{
     }
     >p{
         padding: 7%;
-        width: 100%;
+        width: 110%;
+        font-size: 14px;
     }
 }
 
@@ -97,9 +98,12 @@ article{
         >.icon-pos{
             margin: 5% 10%;
         }
-        &p{
-            padding-right: 2%;
-        }
+    }
+}
+
+.inner-context{
+    >p{
+        font-size: 14px;
     }
 }
 
