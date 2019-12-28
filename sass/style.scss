@@ -74,6 +74,7 @@ aside{
     justify-content: center;
     align-items: center;
     padding: 5%;
+    padding-top: 0;
     a{
         list-style: none;
         border: 2px solid grey;
@@ -92,12 +93,6 @@ aside{
         color: black;
         cursor: pointer;
     }
-
-article{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-}
 
 #profile{
     width: 80%;
@@ -144,9 +139,11 @@ article{
 }
 
 article{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
     background-color: lightgrey;
     margin: 1% 0;
-    padding: 1% 0;
 >#employment, #education, #skill{
     width: 100%;
     display: flex;
@@ -162,7 +159,7 @@ article{
     width: 80%;
     display: flex;
     justify-content: space-between;
-    padding: 1% 1%;
+    padding: 0.9% 1%;
     color: black;
     >.aside, .details{
         display: flex;

@@ -71,7 +71,8 @@ aside .image > img {
           justify-content: center;
   -webkit-box-align: center;
           align-items: center;
-  padding: 5%; }
+  padding: 5%;
+  padding-top: 0; }
 
 #lang a {
   list-style: none;
@@ -88,14 +89,6 @@ aside .image > img {
   background-color: lightgrey;
   color: black;
   cursor: pointer; }
-
-article {
-  width: 100%;
-  display: -webkit-box;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-          flex-direction: column; }
 
 #profile {
   width: 80%; }
@@ -151,9 +144,14 @@ article {
   margin: 5% 10%; }
 
 article {
+  width: 100%;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
   background-color: lightgrey;
-  margin: 1% 0;
-  padding: 1% 0; }
+  margin: 1% 0; }
 
 article > #employment, article #education, article #skill {
   width: 100%;
@@ -174,7 +172,7 @@ article .icon-pos {
   display: flex;
   -webkit-box-pack: justify;
           justify-content: space-between;
-  padding: 1% 1%;
+  padding: 0.9% 1%;
   color: black; }
 
 .context > .aside, .context .details {
