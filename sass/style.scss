@@ -69,6 +69,29 @@ aside{
         width: 100%;
     }
 
+#lang{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+    a{
+        list-style: none;
+        border: 2px solid grey;
+        padding: 5%;
+        border-radius: 10%;
+        text-decoration: none;
+        color: white;
+    }
+}
+    #lang a:nth-child(2n){
+        margin: 0 10%;
+    }
+
+    #lang>a:hover{
+        background-color: lightgrey;
+        color: black;
+        cursor: pointer;
+    }
 
 article{
     width: 100%;
