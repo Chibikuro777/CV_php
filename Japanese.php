@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>The CV of Sanae Kawasaka</title>
+    <title>川阪 佐奈恵の履歴書</title>
     <link rel="stylesheet" href="sass/reset.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <script src="https://kit.fontawesome.com/70e528c2a1.js" crossorigin="anonymous"></script>
@@ -16,24 +16,21 @@
         <aside>
             <section class="image">
                 <img src="assets/img/Myself.jpg" alt="The photo of myself">
-                <h1>Sanae Kawasaka</h1>
+                <h1>川阪&nbsp;佐奈恵</h1>
                 <hr>
             </section>
             <section id="lang">
-                <a href="index.html"><li>EN</li></a>
-                <a href="Japanese.html"><li>JP</li></a>
-                <a href="French.html"><li>FR</li></a>
+                <a href="index.php"><li>EN</li></a>
+                <a href="Japanese.php"><li>JP</li></a>
+                <a href="French.php"><li>FR</li></a>
             </section>
             <section id="profile">
                 <div class="subtitle">
                     <i class="fas fa-user aside-sub"></i>
-                    <p>Profile</p>
+                    <p>プロフィール</p>
                 </div>
-                <p>I have studied in an intensive Web engineer course at NexSeed Okinawa.
-                    Although I don't have any work experience in IT industry, I have an enthusiasm on making websites
-                    and learning new technologies.
-                    Please check out my work collection which I made while I was in school, and if you are interested in
-                    me even a little, please don't hesitate to contact me even just for a casual talk.</p>
+                <p>NexSeed沖縄校のWebエンジニアコースに通っていました。IT業界での職務経験はありませんが、ウェブサイトを作ったり新しい技術の習得が好きです。
+                    学校通学中に作った制作物をご覧頂き、少しでも興味があればコンタクトください！</p>
             </section>
             <section id="contact">
                 <div class="subtitle">
@@ -56,19 +53,19 @@
             <section id="hobby">
                 <div class="subtitle">
                     <i class="far fa-heart aside-sub"></i>
-                    <p>Hobby</p>
+                    <p>趣味</p>
                 </div>
                 <div class="inner-context">
                     <i class="fas fa-swimmer icon-pos"></i>
-                    <p>Swimming</p>
+                    <p>水泳</p>
                 </div>
                 <div class="inner-context">
                     <i class="fas fa-mountain icon-pos"></i>
-                    <p>Hiking</p>
+                    <p>ハイキング</p>
                 </div>
                 <div class="inner-context">
                     <i class="fas fa-plane-departure icon-pos"></i>
-                    <p>Traveling</p>
+                    <p>旅行</p>
                 </div>
             </section>
         </aside>
@@ -77,56 +74,48 @@
             <section id="employment">
                 <div class="subtitle1">
                     <i class="fas fa-briefcase icon-pos"></i>
-                    <p>Employment</p>
+                    <p>職務経歴</p>
                 </div>
 
                 <div class="context">
                     <div class="aside">
-                        <p>Mar 2016 - May 2018</p>
+                        <p>2016年3月 - 2018年5月</p>
                     </div>
                     <div class="details">
-                        <p>Regus Express Kansai Airport</p>
-                        <p>Position: Community Associate</p>
-                        <p>Welcome customer, and explain our systems
-                            Answering phone calls, emails.</p>
+                        <p>リージャスエクスプレス関西空港</p>
+                        <p>ポジション： Community Associate</p>
+                        <p>レンタルオフィスや一時利用会議室、一時利用コワーキングスペースの受付、 事務処理など。</p>
                     </div>
                 </div>
                 <div class="context">
                     <div class="aside">
-                        <p>Nov 2012 - Jun 2014</p>
+                        <p>2012年11月 - 2014年6月</p>
                     </div>
                     <div class="details">
-                        <p>GSM Rentafone Pty Ltd.</p>
-                        <p>Position: Sales staff at rental shop</p>
-                        <p>Rented phones, SIM cards, and WiFi routers to international and Japanese tourists.
-                            Sold pre-paid phones and phone accessories.</p>
+                        <p>GSMレンタフォン株式会社</p>
+                        <p>ポジション： 販売員・受付</p>
+                        <p>関西空港到着ロビーにて主に外国人旅行者向けに携帯電話やWiFi機器などのレンタル業務、在庫管理、データ入力、電話応対、プリペイド携帯の販売など。</p>
                     </div>
                 </div>
                 <div class="context">
                     <div class="aside">
-                        <p>Mar 2009 - Feb 2011</p>
+                        <p>2009年3月 - 2011年2月</p>
                     </div>
                     <div class="details">
-                        <p>Kansai Airport Agency Co., Ltd.</p>
-                        <p>Position: Currency Exchanger</p>
-                        <p>Sold and bought 34 currencies.
-                            Opening and closing shops.
-                            Sorted out currencies.
-                            Reported daily sales.
+                        <p>関西エアポートエージェンシー</p>
+                        <p>ポジション： 両替窓口スタッフ</p>
+                        <p>関西空港にて外貨両替業務、店舗開・閉店、電話応対、ロビー案内、他店のレートチェックなど。
                         </p>
                     </div>
                 </div>
                 <div class="context">
                     <div class="aside">
-                        <p>Jan 2008 – Jan 2009</p>
+                        <p>2008年1月 – 2009年1月</p>
                     </div>
                     <div class="details">
-                        <p>NIPPON EXPRESS Co., Ltd.</p>
-                        <p>Position: Export office administrator</p>
-                        <p>Made cover letters, invoices, packing lists.
-                            Answered phone calls.
-                            Sent shipping instruction to warehouses in Shanghai, and Manila.
-                            Sent billing lists to the customer.
+                        <p>日本通運株式会社</p>
+                        <p>ポジション： 貿易事務スタッフ</p>
+                        <p>INVOICE, PACKINGLIST作成、上海・マニラの海外倉庫へ出荷指示、電話取次など。
                         </p>
                     </div>
                 </div>
@@ -135,32 +124,32 @@
             <section id="education">
                 <div class="subtitle1">
                     <i class="fas fa-graduation-cap icon-pos"></i>
-                    <p>Education</p>
+                    <p>学歴</p>
                 </div>
                 <div class="context">
                     <div class="aside">
-                        <p>Apr 2006 – Mar 2008</p>
+                        <p>2006年4月 – 2008年3月</p>
                     </div>
                     <div class="details">
-                        <p>Osaka College of Foreign languages</p>
-                        <p>Course of Interpretation</p>
-                    </div>
-                </div>
-                <div class="context">
-                    <div class="aside">
-                        <p>Mar 2011 – Feb 2012</p>
-                    </div>
-                    <div class="details">
-                        <p>Studied English in Language schools in United Kingdom</p>
+                        <p>大阪外語専門学校</p>
+                        <p>英語通訳学科</p>
                     </div>
                 </div>
                 <div class="context">
                     <div class="aside">
-                        <p>Sep 2019 - Dec 2019</p>
+                        <p>2011年3月 – 2012年2月</p>
                     </div>
                     <div class="details">
-                        <p>NexSeed Okinawa</p>
-                        <p>Intensive Web engineer course</p>
+                        <p>イギリスで語学学校に通う</p>
+                    </div>
+                </div>
+                <div class="context">
+                    <div class="aside">
+                        <p>2019年9月 - 2019年12月</p>
+                    </div>
+                    <div class="details">
+                        <p>NexSeed沖縄校</p>
+                        <p>Webエンジニアコース</p>
                     </div>
                 </div>
             </section>
@@ -168,7 +157,7 @@
             <section id="skill">
                 <div class="subtitle1">
                     <i class="far fa-star icon-pos"></i>
-                    <p>Skill</p>
+                    <p>スキル</p>
                 </div>
                 <div class="context">
                     <div class="chart" data-percent="80">HTML5</div>
