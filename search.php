@@ -14,7 +14,7 @@ require_once('dbconnect.php');
     // $_GET['name']が存在していれば
     $name = '';
     if (isset($_GET['name'])){
-        $nickname = $_GET['name'];
+        $name = $_GET['name'];
         var_dump($name);
     }
         
@@ -34,7 +34,7 @@ require_once('dbconnect.php');
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-    <title>送信完了</title>
+    <title>Sent!</title>
     <meta charset="utf-8">
 </head>
 <body>

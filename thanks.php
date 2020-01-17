@@ -1,4 +1,5 @@
 <?php
+ini_set('display_errors', 1);
 require_once('function.php');
 require_once('dbconnect.php');
 
