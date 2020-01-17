@@ -2,7 +2,7 @@
 
 //DBに接続
 $host = getenv('localhost'); //MySQLがインストールされてるコンピュータ
-$dbname = getenv('form'); //使用するDB
+$dbname = getenv('client_list'); //使用するDB
 $charset = "utf8"; //文字コード
 $user = getenv('root'); //MySQLにログインするユーザー名
 $password= getenv('');//ユーザーのパスワード
