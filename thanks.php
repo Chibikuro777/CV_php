@@ -3,7 +3,7 @@ require_once('function.php');
 require_once('dbconnect.php');
 
 if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
-    header('Location: check.php');
+    header('Location: form.php');
 }
     // 入力内容の取得
     $name = $_POST['name'];
