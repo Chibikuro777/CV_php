@@ -1,11 +1,11 @@
 <?php
 
 //DBに接続
-$host = 'localhost'; //MySQLがインストールされてるコンピュータ
-$dbname = 'form'; //使用するDB
+$host = $_ENV['DB_HOST']; //MySQLがインストールされてるコンピュータ
+$dbname = $_ENV['DB_NAME']; //使用するDB
 $charset = "utf8"; //文字コード
-$user = 'root'; //MySQLにログインするユーザー名
-$password= '';//ユーザーのパスワード
+$user = $_ENV['DB_USER']; //MySQLにログインするユーザー名
+$password= $_ENV['DB_PASSWORD'];//ユーザーのパスワード
 $options = [
     PDO::ATTR_ERRMODE            => PDO::ERRMODE_EXCEPTION, //SQLでエラーが表示された場合、画面にエラーが出力される
     PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC, //DBから取得したデータを連想配列の形式で取得する
