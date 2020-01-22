@@ -1,7 +1,7 @@
 <?php
 
 //DBに接続
-$host = $_ENV['db_host']; //MySQLがインストールされてるコンピュータ
+$host = $_ENV['DB_HOST']; //MySQLがインストールされてるコンピュータ
 $dbname = $_ENV['DB_NAME']; //使用するDB
 $charset = "utf8"; //文字コード
 $user = $_ENV['DB_USER']; //MySQLにログインするユーザー名
