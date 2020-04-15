@@ -20,9 +20,9 @@
                 <hr>
             </section>
             <section id="lang">
-                <a href="index.html"><li>EN</li></a>
-                <a href="Japanese.html"><li>JP</li></a>
-                <a href="French.html"><li>FR</li></a>
+                <a href="index.php"><li>EN</li></a>
+                <a href="Japanese.php"><li>JP</li></a>
+                <a href="French.php"><li>FR</li></a>
             </section>
             <section id="profile">
                 <div class="subtitle">
