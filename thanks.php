@@ -26,9 +26,6 @@ $stmt->execute([$gender, $name, $email, $comment]);
     <title>Your comment sent</title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="./sass/style1.css">
-    <script>
-        require('dotenv').config();
-    </script>
 </head>
 
 <body>
