@@ -66,7 +66,7 @@ if ($comment == '') {
 <head>
     <title>confirm</title>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="sass/style1.css">
+    <link rel="stylesheet" href="./sass/style1.css">
 </head>
 
 <body>

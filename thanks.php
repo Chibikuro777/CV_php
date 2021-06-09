@@ -1,10 +1,13 @@
 <?php
-require_once 'function.php';
+require_once('function.php');
 require_once 'dbconnect.php';
 
 if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
     header('Location: form.php');
 }
+
+echo $_POST['gender'];
+
 // 入力内容の取得
 $gender = $_POST['gender'];
 $name = $_POST['name'];
@@ -22,7 +25,10 @@ $stmt->execute([$gender, $name, $email, $comment]);
 <head>
     <title>Your comment sent</title>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="sass/style1.css">
+    <link rel="stylesheet" href="./sass/style1.css">
+    <script>
+        require('dotenv').config();
+    </script>
 </head>
 
 <body>

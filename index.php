@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>The CV of Sanae Kawasaka</title>
-    <link rel="stylesheet" href="sass/reset.css">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="./sass/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
     <script src="https://kit.fontawesome.com/70e528c2a1.js" crossorigin="anonymous"></script>
 </head>
 
@@ -15,14 +15,20 @@
     <div class="container">
         <aside>
             <section class="image">
-                <img src="assets/img/Myself.jpg" alt="The photo of myself">
+                <img src="../assets/img/Myself.jpg" alt="The photo of myself">
                 <h1>Sanae Kawasaka</h1>
                 <hr>
             </section>
             <section id="lang">
-                <a href="index.php"><li>EN</li></a>
-                <a href="Japanese.php"><li>JP</li></a>
-                <a href="French.php"><li>FR</li></a>
+                <a href="index.php">
+                    <li>EN</li>
+                </a>
+                <a href="Japanese.php">
+                    <li>JP</li>
+                </a>
+                <a href="French.php">
+                    <li>FR</li>
+                </a>
             </section>
             <section id="profile">
                 <div class="subtitle">
@@ -36,10 +42,11 @@
                     me even a little, please don't hesitate to contact me even just for a casual talk.</p>
             </section>
             <section id="contact">
-                <a href="form.php"><div class="subtitle">
-                    <i class="fas fa-address-book aside-sub"></i>
-                    <p>Contact</p>
-                </div>
+                <a href="form.php">
+                    <div class="subtitle">
+                        <i class="fas fa-address-book aside-sub"></i>
+                        <p>Contact</p>
+                    </div>
                 </a>
                 <div class="inner-context">
                     <i class="fas fa-envelope icon-pos"></i>
@@ -183,10 +190,9 @@
         </article>
     </div>
 
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-        integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/easy-pie-chart/2.1.3/jquery.easypiechart.min.js"></script>
-    <script src="assets/js/app.js"></script>
+    <script src="../assets/js/app.js"></script>
 </body>
 
 </html>

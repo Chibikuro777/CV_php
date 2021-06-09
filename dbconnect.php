@@ -1,8 +1,8 @@
 <?php
-require_once './vendor/autoload.php';
+require_once('./vendor/autoload');
 
-$dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
-$dotenv->load();
+// $dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
+// $dotenv->load();
 
 //DBに接続
 $host = $_ENV['DB_HOST']; //MySQLがインストールされてるコンピュータ
