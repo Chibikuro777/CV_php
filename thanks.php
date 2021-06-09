@@ -1,12 +1,10 @@
 <?php
 require_once('function.php');
-require_once 'dbconnect.php';
+require_once('dbconnect.php');
 
 if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
     header('Location: form.php');
 }
-
-echo $_POST['gender'];
 
 // 入力内容の取得
 $gender = $_POST['gender'];
